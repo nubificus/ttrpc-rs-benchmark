@@ -5,9 +5,9 @@ edition = "2021"
 
 [dependencies]
 tokio = { version = "1.0", features = ["full"] }
-ttrpc = { git = "https://github.com/nubificus/ttrpc-rust.git", branch = "vaccel-dev", features = ["async"] }
+ttrpc = { git = "https://github.com/nubificus/ttrpc-rust.git", branch = "0.8.0+vaccel", features = ["async"] }
 protobuf = "3.1"
 async-trait = "0.1"
 
 [build-dependencies]
-ttrpc-codegen = { git = "https://github.com/nubificus/ttrpc-rust.git", branch = "vaccel-dev" }
+ttrpc-codegen = { git = "https://github.com/nubificus/ttrpc-rust.git", branch = "0.8.0+vaccel" }
